@@ -1,8 +1,7 @@
 import React from "react";
-import { navLinks } from "@/constants";
 
 const Home = () => {
-  return <div>{}</div>;
+  return <div className="text-white flexCenter">Hello World!s</div>;
 };
 
 export default Home;

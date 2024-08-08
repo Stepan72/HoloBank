@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @import "./base.scss";
+}
+
+@layer components {
+  @import "./layout.scss";
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,

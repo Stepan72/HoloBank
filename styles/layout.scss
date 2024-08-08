@@ -1,0 +1,19 @@
+.section {
+  @apply flex md:flex-row flex-col paddingY;
+}
+
+.sectionReverse {
+  @apply flex md:flex-row flex-col-reverse paddingY;
+}
+
+.sectionImgReverse {
+  @apply flex-1 flex flexCenter md:mr-10 mr-0 md:mt-0 mt-10 relative;
+}
+
+.sectionImg {
+  @apply flex-1 flex flexCenter md:ml-10 ml-0 md:mt-0 mt-10 relative;
+}
+
+.sectionInfo {
+  @apply flex-1 flexStart flex-col;
+}
