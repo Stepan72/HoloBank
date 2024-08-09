@@ -1,4 +1,3 @@
-import React from "react";
 import { discount, robot } from "@/assets";
 import Image from "next/image";
 import GetStarted from "./GetStarted";
