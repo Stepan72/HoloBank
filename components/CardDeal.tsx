@@ -19,7 +19,7 @@ const CardDeal = () => {
 
       <div className="sectionImg">
         <Image src={card} alt="card" className="w-[100%] h-[100%] z-[5]" />
-        <div className="hidden sm:block absolute z-[3] right-0 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+        <div className="absolute z-[0] right-0 size-[50%] rounded-full white__gradient" />
       </div>
     </section>
   );
