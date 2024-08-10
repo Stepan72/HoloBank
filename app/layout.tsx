@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-primary w-full overflow-hidden">
+      <body className="bg-primary w-full">
         <div className="paddingX flexCenter ">
           <div className="boxWidth">
             <Navbar />
