@@ -24,7 +24,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the
         </p>
-        <Button className="mt-10" />
+        <Button className="mt-10" label="Get Started" />
       </div>
 
       <div className="sectionImg flex-col">
