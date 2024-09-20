@@ -13,13 +13,13 @@ import {
 const Home = () => {
   return (
     <main>
-      <div className="bg-primary flexStart">
+      <div className="flexStart">
         <div className="boxWidth">
           <Hero />
         </div>
       </div>
 
-      <div className="bg-primary paddingX flexCenter">
+      <div className="paddingX flexCenter">
         <div className="boxWidth">
           <Stats />
           <Business />
