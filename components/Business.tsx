@@ -10,20 +10,18 @@ interface FeatureCardProp {
   index: number;
 }
 
+const sectionInfoHeading = "You do the business,\n we will handle the money.";
+const sectionInfoParagrapgh =
+  "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the";
+
 const Business = () => {
   return (
     <section id="features" className="section">
       <div className="sectionInfo">
-        <h2 className="heading2">
-          You do the business,
-          <br className="sm:block hidden" />
-          we will handle the money.
+        <h2 className="heading2 sm:whitespace-pre-line">
+          {sectionInfoHeading}
         </h2>
-        <p className="paragraph max-w-[470px] mt-5">
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the
-        </p>
+        <p className="paragraph max-w-[470px] mt-5">{sectionInfoParagrapgh}</p>
         <Button className="mt-10" label="Get Started" />
       </div>
 
