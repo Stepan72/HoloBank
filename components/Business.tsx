@@ -25,7 +25,7 @@ const Business = () => {
         <Button className="mt-10" label="Get Started" />
       </div>
 
-      <div className="sectionImg flex-col">
+      <div className="sectionImg flex-col gap-6">
         {features.map((feature, index) => {
           return <FeatureCard key={feature.id} {...feature} index={index} />;
         })}
@@ -34,9 +34,9 @@ const Business = () => {
   );
 };
 
-const FeatureCard = ({ icon, title, content, index }: FeatureCardProp) => {
+const FeatureCard = ({ icon, title, content }: FeatureCardProp) => {
   return (
-    <div className="flex flex-row p-6 rounded-[20px] gap-y-6 items-center cursor-pointer feature-card">
+    <div className="flex flex-row p-6 rounded-[20px] items-center cursor-pointer feature-card">
       <div className="size-[64px] rounded-full flexCenter bg-dimBlue">
         <Image src={icon} alt="icon" className="size-[50%] object-contain" />
       </div>

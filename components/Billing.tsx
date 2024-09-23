@@ -1,6 +1,10 @@
 import { apple, bill, google } from "@/assets";
 import Image from "next/image";
 
+const sectionInfoHeading = "Easily control your\n billing & invoicing.";
+const sectionInfoParagraph =
+  "Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.";
+
 const Billing = () => {
   return (
     <section id="product" className="sectionReverse">
@@ -15,15 +19,10 @@ const Billing = () => {
       </div>
 
       <div className="sectionInfo">
-        <h2 className="heading2">
-          Easily control your <br className="sm:block hidden" /> billing &
-          invoicing.
+        <h2 className="heading2 sm:whitespace-pre-line">
+          {sectionInfoHeading}
         </h2>
-        <p className="paragraph max-w-[470px] mt-5">
-          Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-          aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-          placerat.
-        </p>
+        <p className="paragraph max-w-[470px] mt-5">{sectionInfoParagraph}</p>
         <div className="flex flex-row justify-center flex-wrap sm:mt-10 mt-6">
           <Image
             src={apple}
